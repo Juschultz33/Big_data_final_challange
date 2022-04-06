@@ -16,8 +16,7 @@ import altair as alt
 
 st.title("Rexburg Idaho Businesses")
 # LzDerxCG1RVEVCLsa0dX08p9h3OnNlKT
-api_key = st.text_input('Enter your API key here.',
-                        'LzDerxCG1RVEVCLsa0dX08p9h3OnNlKT')
+api_key = st.text_input('Enter your API key here.','API_Key')
 # st.write('Your api Key is ', api_key)
 
 weeks = st.multiselect(
